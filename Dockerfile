@@ -1,3 +1,5 @@
 FROM ubuntu
 
-CMD ["echo hello world","my first docker image"]
+RUN apt-get update
+
+CMD ["echo", "Hello World... from my first docker image"]
